@@ -7,7 +7,7 @@ the flow of genetic information from DNA to RNA to protein.
 ## Contribution
 Lea Eschen Skytthe, s203531, contact: s203531@dtu.dk
 
-Trine Søgaard, s204655 , contact triso@dtu.dk: 
+Trine Søgaard, s204655, contact: triso@dtu.dk 
 
 Amy , s201902 , contact: s201902@dtu.dk
 
