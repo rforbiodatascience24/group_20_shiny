@@ -14,7 +14,7 @@ ui <- page_fluid(
     col_widths = 12,
     card(
       titlePanel("About"),
-      helpText("Describe what your app does...")
+      helpText("Small Shiny app by Group20 : Virtual Central Dogma")
     )),
   layout_columns(
     col_widths = 12,
