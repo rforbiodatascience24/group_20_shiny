@@ -1,7 +1,6 @@
 ## Libraries
-library("shiny")
 library("bslib")
-library("ggplot2")
+
 
 # Define the User Interface (Frontend)
 ui <- page_fluid(
