@@ -22,9 +22,10 @@ ui <- page_fluid(
       card_header("Virtual Gene Generator"),
       sliderInput(inputId = "n_bases",
                   label = "Number of bases:",
-                  min = 1,
+                  min = 0,
                   max = 60,
                   value = 30,
+                  step = 3,
                   width = "100%"),
       layout_columns(
         col_widths = c(3, 3, 3, 3),
@@ -56,7 +57,7 @@ ui <- page_fluid(
   layout_columns(
     col_widths = 12,
     card(
-      card_header("Virtual Gene output"),
+      card_header("Virtual Gene output (DNA)"),
       mainPanel(
         verbatimTextOutput(outputId = "dna")
       )
@@ -64,7 +65,7 @@ ui <- page_fluid(
   layout_columns(
     col_widths = 12,
     card(
-      card_header("Virtual Gene transcription output"),
+      card_header("Gene Transcription output (RNA)"),
       mainPanel(
         verbatimTextOutput(outputId = "rna")
       )
@@ -72,7 +73,7 @@ ui <- page_fluid(
   layout_columns(
     col_widths = 12,
     card(
-      card_header("Virtual Gene translation output"),
+      card_header("Gene Translation output (Protein)"),
       mainPanel(
         verbatimTextOutput(outputId = "protein")
       )
@@ -80,7 +81,7 @@ ui <- page_fluid(
   layout_columns(
     col_widths = 12,
     card(
-      card_header("Virtual Gene translation output"),
+      card_header("Base Distribution Plot"),
       mainPanel(
         plotOutput(outputId = "distPlot")
       )
